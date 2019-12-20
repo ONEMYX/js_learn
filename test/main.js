@@ -30,3 +30,18 @@ if (bmi < 18.5) {
 } else if (bmi < 25) {
     console.log(2)
 }
+
+var x = 0;
+var i;
+for (i = 1; i <= 100; i++) {
+    x = x + i;
+}
+console.log(x)
+
+var arr = ['Apple', 'Google', 'Microsoft'];
+var i, x;
+for (i = 0; i < arr.length; i++) {
+    x = arr[i];
+    console.log(x);
+}
+console.log(123);
